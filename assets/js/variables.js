@@ -25,27 +25,27 @@ const portfolioVariables = {
     meta: {
         description: "This project serves free and beautiful portfolio template for everyone. Anyone can showcase their work including moocs, education, projects, experience,etc. to the world.",
         keywords: "free portfolio template, portfolio template, portfolio website template",
-        author: "John Doe",
+        author: "Dave Nguyen",
         siteUrl: "https://your-site.com"
     },
     
     // Add more sections as needed
     education: {
-        title: "John Doe | Education"
+        title: "Dave Nguyen | Education"
     },
     
     experience: {
-        title: "John Doe | Experience"
+        title: "Dave Nguyen | Experience"
     },
     
     projects: {
-        title: "John Doe | Projects"
+        title: "Dave Nguyen | Projects"
     }
 };
 
 // Function to update page title
 function setPageTitle(titleKey) {
-    const title = portfolioVariables[titleKey]?.title || "John Doe";
+    const title = portfolioVariables[titleKey]?.title || "Dave Nguyen";
     document.title = title;
 }
 

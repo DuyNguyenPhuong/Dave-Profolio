@@ -5,26 +5,41 @@ AOS.init();
 const experiencecards = document.querySelector(".experience-cards");
 const exp = [
   {
-    title: "Software Development Intern",
-    cardImage: "assets/images/experience-page/flipkart.jpg",
-    place: "Flipkart",
-    time: "(May, 2020 - present)",
-    desp: "<li>Worked to migrate Flipkart lite’s product page to AMP pages so that they load up instantly.</li> <li>Made changes in the current progressive web app of Flipkart to react to different actions performed on AMP page.</li> <li>Created a node module called “fk-amp” which abstracts all the files and middlewares and can be easily imported and used from express server.</li>",
-  },
-  {
-    title: "Student Developer",
-    cardImage: "assets/images/experience-page/gsoc.png",
-    place: "Google Summer Of Code",
-    time: "(Mar - Aug, 2019)",
-    desp: "<li>Worked with MOZILLA as a part of Google Summer Of Code.</li><li>Worked on Extension Activity Monitor which is a privileged extension for Firefox that uses the activityLog API (privileged API) to monitor the activities of the other installed extensions.</li><li>The activityLog API listens for logs from other installed extensions.</li>",
-  },
-  {
-    title: "Research Intern",
-    cardImage: "assets/images/experience-page/IIT_Bombay.jpg",
-    place: "IIT, Bombay",
-    time: "(Dec, 19 - Jan, 20)",
-    desp: "<li>Worked on the project “LTI (Learning Tools Interoperability) 2.0 standards Implementation for ekShiksha.</li><li>Designed a software that would help faculty to create a quiz using the questions from the database based on his/her choice of topics and he should be provided with various facilities and options to create a quiz of his choice.</li>",
-  },
+  title: "Software Engineer Level 60",
+  cardImage: "assets/images/experience-page/microsoft.png",
+  place: "Microsoft - Core Team",
+  time: "June 2024 – present",
+  desp: "<li>Promoted to level 60 from 59 in just 3 months due to outstanding delivery.</li>\
+         <li>Received manager feedback highlighting ahead-of-schedule delivery and impactful stretch goal completion.</li>\
+         <li>Moved Azure infrastructure off host to dedicated hardware cards, reducing 20% overhead costs and increasing sellable cores using Rust, C++, and Linux.</li>"
+},
+{
+  title: "Software Engineer Intern",
+  cardImage: "assets/images/experience-page/microsoft.png",
+  place: "Microsoft - Core Team",
+  time: "June 2023 – Sep 2023",
+  desp: "<li>Designed a test system for the lowest-level Azure Core service, optimizing resource allocation and OS image deployment across 4M servers (Rust, C++).</li>\
+         <li>Achieved 95% test coverage on critical infrastructure components.</li>\
+         <li>Automated deployment pipeline, cutting execution time from 30 minutes to 2 minutes.</li>"
+},
+{
+  title: "Software Engineer Intern",
+  cardImage: "assets/images/experience-page/amazon.jpg",
+  place: "Amazon",
+  time: "June 2023 – Sep 2023",
+  desp: "<li>Developed a Notification microservice using AWS SQS, Java, and Typescript for 1.4M annual customers.</li>\
+         <li>Architected end-to-end delivery pipeline with AWS CDK and CI/CD, reducing deployment time by 35%.</li>\
+         <li>Completed a stretch goal by scaling email delivery to 100,000+ messages per day using AWS Queue Services and Step Functions.</li>"
+},
+{
+  title: "Full-stack Software Engineer (Part-time)",
+  cardImage: "assets/images/experience-page/sotatek.jpg",
+  place: "SotaTek",
+  time: "Nov 2021 – June 2022",
+  desp: "<li>Built core blockchain infrastructure, developing smart contract logic and transaction modules in Rust and C++.</li>\
+         <li>Launched a high-speed trading platform reaching 10,000 active users.</li>\
+         <li>Improved security by implementing robust JWT authentication across Next.js backend and React.js frontend.</li>"
+}
 ];
 
 const showCards2 = () => {
