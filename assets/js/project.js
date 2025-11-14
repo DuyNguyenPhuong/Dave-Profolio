@@ -4,40 +4,26 @@ AOS.init();
 const experiencecards = document.querySelector(".experience-cards");
 const exp = [
   {
-  title: "Software Engineer Level 60",
-  cardImage: "assets/images/experience-page/microsoft.png",
-  place: "Microsoft - Core Team",
-  time: "June 2024 – present",
-  desp: "<li>Promoted to level 60 from 59 in just 3 months due to outstanding delivery.</li>\
-         <li>Received manager feedback highlighting ahead-of-schedule delivery and impactful stretch goal completion.</li>\
-         <li>Moved Azure infrastructure off host to dedicated hardware cards, reducing 20% overhead costs and increasing sellable cores using Rust, C++, and Linux.</li>"
+  title: "Tech Lead",
+  cardImage: "assets/images/experience-page/aisha.png",
+  place: "Aisha (Top 10% Y-Combinator Spring 2025)",
+  time: "December 2024 – May 2025",
+  desp: "<li>Managed a team of <b>12 engineers</b> to build an AI Agent Factory Operation using <b>LangGraph</b>, enabling workers to receive new training and emergency alerts within seconds using <b>TensorFlow</b>.</li>\
+         <li>Created a user-friendly operations platform with <b>React.js</b>, deployed across <b>5 Wastewater Treatment Plants</b>.</li>\
+         <li>Applied expertise in Langchain, Teamwork, Agile Development, AWS, DevOps, Vercel, LangGraph, CORS, CDN.</li>\
+         <li>Link: https://youtu.be/_ZJmG5ARBuo or https://ai.sfcwater.com/</li>"
 },
 {
-  title: "Software Engineer Intern",
-  cardImage: "assets/images/experience-page/microsoft.png",
-  place: "Microsoft - Core Team",
-  time: "June 2023 – Sep 2023",
-  desp: "<li>Designed a test system for the lowest-level Azure Core service, optimizing resource allocation and OS image deployment across 4M servers (Rust, C++).</li>\
-         <li>Achieved 95% test coverage on critical infrastructure components.</li>\
-         <li>Automated deployment pipeline, cutting execution time from 30 minutes to 2 minutes.</li>"
-},
-{
-  title: "Software Engineer Intern",
-  cardImage: "assets/images/experience-page/amazon.jpg",
-  place: "Amazon",
-  time: "June 2023 – Sep 2023",
-  desp: "<li>Developed a Notification microservice using AWS SQS, Java, and Typescript for 1.4M annual customers.</li>\
-         <li>Architected end-to-end delivery pipeline with AWS CDK and CI/CD, reducing deployment time by 35%.</li>\
-         <li>Completed a stretch goal by scaling email delivery to 100,000+ messages per day using AWS Queue Services and Step Functions.</li>"
-},
-{
-  title: "Full-stack Software Engineer (Part-time)",
-  cardImage: "assets/images/experience-page/sotatek.jpg",
-  place: "SotaTek",
-  time: "Nov 2021 – June 2022",
-  desp: "<li>Built core blockchain infrastructure, developing smart contract logic and transaction modules in Rust and C++.</li>\
-         <li>Launched a high-speed trading platform reaching 10,000 active users.</li>\
-         <li>Improved security by implementing robust JWT authentication across Next.js backend and React.js frontend.</li>"
+  title: "Tech Lead",
+  cardImage: "assets/images/experience-page/weshare.png",
+  place: "Weshare.asia",
+  time: "November 2022 – December 2024",
+  desp: "<li>Received <b>$62,000 funding</b> from MYSC (Korea) via KOICA and selected as <a href='https://diendandoanhnghiep.vn/khoi-nghiep-quoc-gia-nam-2022-du-an-weshare-lot-top-20-du-an-xuat-sac-10037412.html' target='_blank'><b>Top 20 Best Startup in the National Startup Program</b></a>.</li>\
+         <li>Scaled the application from idea to <b>50,000+ monthly active users</b> using AWS Load Balancer and advanced caching strategies.</li>\
+         <li>Developed mobile apps for iOS/Android, full-stack backend, and browser extension using <b>React Native</b> and <b>JavaScript</b>.</li>\
+         <li><b>Reduced hosting cost by 90%</b> by migrating static assets from EC2 to AWS S3.</li>\
+         <li>Gained experience in Mobile Development, GCP, AWS, Cloudflare, React.js, Load Balancing, Capacity Planning.</li>\
+         <li>Website, Mobile App, Web Extension: https://weshare.asia/en/about</li>"
 }
 ];
 
