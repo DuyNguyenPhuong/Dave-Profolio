@@ -1,5 +1,78 @@
 AOS.init();
+
+
+const experiencecards = document.querySelector(".experience-cards");
+const exp = [
+  {
+  title: "Software Engineer Level 60",
+  cardImage: "assets/images/experience-page/microsoft.png",
+  place: "Microsoft - Core Team",
+  time: "June 2024 – present",
+  desp: "<li>Promoted to level 60 from 59 in just 3 months due to outstanding delivery.</li>\
+         <li>Received manager feedback highlighting ahead-of-schedule delivery and impactful stretch goal completion.</li>\
+         <li>Moved Azure infrastructure off host to dedicated hardware cards, reducing 20% overhead costs and increasing sellable cores using Rust, C++, and Linux.</li>"
+},
+{
+  title: "Software Engineer Intern",
+  cardImage: "assets/images/experience-page/microsoft.png",
+  place: "Microsoft - Core Team",
+  time: "June 2023 – Sep 2023",
+  desp: "<li>Designed a test system for the lowest-level Azure Core service, optimizing resource allocation and OS image deployment across 4M servers (Rust, C++).</li>\
+         <li>Achieved 95% test coverage on critical infrastructure components.</li>\
+         <li>Automated deployment pipeline, cutting execution time from 30 minutes to 2 minutes.</li>"
+},
+{
+  title: "Software Engineer Intern",
+  cardImage: "assets/images/experience-page/amazon.jpg",
+  place: "Amazon",
+  time: "June 2023 – Sep 2023",
+  desp: "<li>Developed a Notification microservice using AWS SQS, Java, and Typescript for 1.4M annual customers.</li>\
+         <li>Architected end-to-end delivery pipeline with AWS CDK and CI/CD, reducing deployment time by 35%.</li>\
+         <li>Completed a stretch goal by scaling email delivery to 100,000+ messages per day using AWS Queue Services and Step Functions.</li>"
+},
+{
+  title: "Full-stack Software Engineer (Part-time)",
+  cardImage: "assets/images/experience-page/sotatek.jpg",
+  place: "SotaTek",
+  time: "Nov 2021 – June 2022",
+  desp: "<li>Built core blockchain infrastructure, developing smart contract logic and transaction modules in Rust and C++.</li>\
+         <li>Launched a high-speed trading platform reaching 10,000 active users.</li>\
+         <li>Improved security by implementing robust JWT authentication across Next.js backend and React.js frontend.</li>"
+}
+];
+
+
+const showCards2 = () => {
+  let output = "";
+  exp.forEach(
+    ({ title, cardImage, place, time, desp }) =>
+      (output += `        
+    <div class="col gaap" data-aos="fade-up" data-aos-easing="linear" data-aos-delay="100" data-aos-duration="400"> 
+      <div class="card card1">
+        <img src="${cardImage}" class="featured-image"/>
+        <article class="card-body">
+          <header>
+            <div class="title">
+              <h3>${title}</h3>
+            </div>
+            <p class="meta">
+              <span class="pre-heading">${place}</span><br>
+              <span class="author">${time}</span>
+            </p>
+            <ol>
+              ${desp}
+            </ol>
+          </header>
+        </article>
+      </div>
+    </div>
+      `)
+  );
+  experiencecards.innerHTML = output;
+};
+document.addEventListener("DOMContentLoaded", showCards2);
 /* Project Cards */
+
 
 const projectcards = document.querySelector(".projectcards");
 
