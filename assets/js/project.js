@@ -5,7 +5,7 @@ const experiencecards = document.querySelector(".experience-cards");
 const exp = [
   {
   title: "Tech Lead",
-  cardImage: "assets/images/experience-page/aisha.png",
+  cardImage: "assets/images/project-page/sfc.jpg",
   place: "Aisha (Top 10% Y-Combinator Spring 2025)",
   time: "December 2024 – May 2025",
   desp: "<li>Managed a team of <b>12 engineers</b> to build an AI Agent Factory Operation using <b>LangGraph</b>, enabling workers to receive new training and emergency alerts within seconds using <b>TensorFlow</b>.</li>\
@@ -15,7 +15,7 @@ const exp = [
 },
 {
   title: "Tech Lead",
-  cardImage: "assets/images/experience-page/weshare.png",
+  cardImage: "assets/images/project-page/fundy.jpg",
   place: "Weshare.asia",
   time: "November 2022 – December 2024",
   desp: "<li>Received <b>$62,000 funding</b> from MYSC (Korea) via KOICA and selected as <a href='https://diendandoanhnghiep.vn/khoi-nghiep-quoc-gia-nam-2022-du-an-weshare-lot-top-20-du-an-xuat-sac-10037412.html' target='_blank'><b>Top 20 Best Startup in the National Startup Program</b></a>.</li>\
