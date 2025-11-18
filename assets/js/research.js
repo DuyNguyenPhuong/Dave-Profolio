@@ -4,7 +4,7 @@ const researchTable = document.querySelector(".main");
 
 const research = [
 {
-  title: "Optimized Waste Water Treatment Operation by Applying Machine Learning and AI",
+  title: "Optimized Waste Water Treatment Operation by Applying Machine Learning and AI (Top 10% YC)",
   authors: "Water Supply & Drainage",
   conferences: "Water Supply & Drainage",
   researchYr: 2025,
