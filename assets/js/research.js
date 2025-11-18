@@ -3,6 +3,48 @@
 const researchTable = document.querySelector(".main");
 
 const research = [
+{
+  title: "Optimized Waste Water Treatment Operation by Applying Machine Learning and AI",
+  authors: "Water Supply & Drainage",
+  conferences: "Water Supply & Drainage",
+  researchYr: 2025,
+  citebox: "popup2",
+  image: "assets/images/research-page/wasteWaterML.png",
+  citation: {
+    vancouver:
+      "Water Supply & Drainage. Improving Waste Water Treatment Operation by Applying Machine Learning Technology. Water Supply & Drainage. 2022.",
+  },
+  abstract: "Received top 10% Top best startup Y-Combinator: (https://aisha-assistant-fe-delta.vercel.app/river-map). This project develops an AI-driven system that optimizes the operation of Waste Water Treatment Plants (WWTPs) by modeling and predicting the behavior of the microorganisms essential to the treatment process. Using machine learning algorithms and an AI agent framework, the system simulates microbial activity under varying environmental and operational conditions—such as aeration levels, chemical dosing, sludge age, and influent fluctuations. By learning from historical plant data and running efficient predictive simulations, the model recommends real-time operational adjustments that stabilize water quality, reduce energy consumption, and prevent process failures. The technology has been deployed in functioning WWTPs, where it has demonstrated tangible improvements in treatment efficiency and operational stability. Its real-world impact earned the project the Gold Medal at the World Invention Creativity Olympic (WICO), recognizing its contribution to modernizing wastewater management with practical, AI-powered decision support.",
+  absbox: "absPopup2",
+},
+{
+  title: "Predicting Optimal Operation for Waste Water Treatment Plants",
+  authors: "World Invention Creativity Olympic",
+  conferences: "World Invention Creativity Olympic",
+  researchYr: 2022,
+  citebox: "popup3",
+  image: "assets/images/research-page/wicoGold.png",
+  citation: {
+    vancouver:
+      "World Invention Creativity Olympic. Predicting Optimal Operation for Waste Water Treatment Plants. Gold Medal Award.",
+  },
+  abstract: "Awarded the Gold Medal for developing a system that predicts optimal operation for Waste Water Treatment Plants (WWTPs), currently deployed in 5 real facilities: https://aisha-assistant-fe-delta.vercel.app/river-map. This project develops an AI-driven system that optimizes the operation of Waste Water Treatment Plants (WWTPs) by modeling and predicting the behavior of the microorganisms essential to the treatment process. Using machine learning algorithms and an AI agent framework, the system simulates microbial activity under varying environmental and operational conditions—such as aeration levels, chemical dosing, sludge age, and influent fluctuations. By learning from historical plant data and running efficient predictive simulations, the model recommends real-time operational adjustments that stabilize water quality, reduce energy consumption, and prevent process failures. The technology has been deployed in functioning WWTPs, where it has demonstrated tangible improvements in treatment efficiency and operational stability. Its real-world impact earned the project the Gold Medal at the World Invention Creativity Olympic (WICO), recognizing its contribution to modernizing wastewater management with practical, AI-powered decision support.",
+  absbox: "absPopup3",
+},
+{
+  title: "Size Measurement for Translation Look-aside Buffer (TLB) and Cache",
+  authors: "Technology and Life",
+  conferences: "Technology and Life",
+  researchYr: 2024,
+  citebox: "popup1",
+  image: "assets/images/research-page/tlbCache.png",
+  citation: {
+    vancouver:
+      "Technology and Life. Size Measurement for Translation Look-aside Buffer (TLB) and Cache. Technology and Life. 2024.",
+  },
+  abstract: "This study examines the hierarchical performance characteristics of modern CPU memory systems by experimentally measuring the sizes and access latencies of L1, L2, L3 caches, and the Translation Look-aside Buffer (TLB). Using a controlled C-based benchmarking approach, we progressively scaled memory access patterns to detect cache boundaries and quantify latency changes. The results reveal distinct performance transitions across cache levels, demonstrate measurable TLB behavior, and highlight the influence of hardware prefetching in contemporary processors. Understanding these characteristics enables developers to design software that aligns with actual hardware behavior, reducing latency and significantly improving throughput. These insights are especially valuable in performance-critical fields—such as high-frequency trading (HFT) and large-scale data processing—where micro-architectural awareness directly translates into computational efficiency. The study provides a practical foundation for optimizing algorithms, data structures, and memory-intensive applications by taking full advantage of modern CPU architecture.",
+  absbox: "absPopup1",
+},
   // {
   //   title: "A Batch Normalized Inference Network Keeps the KL Vanishing Away",
   //   authors:
