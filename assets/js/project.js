@@ -11,7 +11,7 @@ const exp = [
   desp: "<li>Managed a team of <b>12 engineers</b> to build an AI Agent Factory Operation using <b>LangGraph</b>, enabling workers to receive new training and emergency alerts within seconds using <b>TensorFlow</b>.</li>\
          <li>Created a user-friendly operations platform with <b>React.js</b>, deployed across <b>5 Wastewater Treatment Plants</b>.</li>\
          <li>Applied expertise in Langchain, Teamwork, Agile Development, AWS, DevOps, Vercel, LangGraph, CORS, CDN.</li>\
-         <li>Link: https://youtu.be/_ZJmG5ARBuo or https://ai.sfcwater.com/</li>"
+         <li>Link: https://youtu.be/_ZJmG5ARBuo or https://aisha-assistant-fe-delta.vercel.app/ or https://ai.sfcwater.com/</li>"
 },
 {
   title: "Tech Lead",
