@@ -9,7 +9,7 @@ const research = [
   conferences: "Water Supply & Drainage",
   researchYr: 2025,
   citebox: "popup2",
-  image: "assets/images/research-page/wasteWaterML.png",
+  image: "assets/images/research-page/award.jpg",
   citation: {
     vancouver:
       "Water Supply & Drainage. Improving Waste Water Treatment Operation by Applying Machine Learning Technology. Water Supply & Drainage. 2022.",
@@ -23,7 +23,7 @@ const research = [
   conferences: "World Invention Creativity Olympic",
   researchYr: 2022,
   citebox: "popup3",
-  image: "assets/images/research-page/wicoGold.png",
+  image: "assets/images/research-page/wastewater.jpg",
   citation: {
     vancouver:
       "World Invention Creativity Olympic. Predicting Optimal Operation for Waste Water Treatment Plants. Gold Medal Award.",
@@ -37,7 +37,7 @@ const research = [
   conferences: "Technology and Life",
   researchYr: 2024,
   citebox: "popup1",
-  image: "assets/images/research-page/tlbCache.png",
+  image: "assets/images/research-page/tlbResearch.jpg",
   citation: {
     vancouver:
       "Technology and Life. Size Measurement for Translation Look-aside Buffer (TLB) and Cache. Technology and Life. 2024.",
