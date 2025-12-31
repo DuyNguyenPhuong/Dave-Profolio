@@ -15,8 +15,9 @@ const portfolioVariables = {
         home: "Home",
         experience: "Experience",
         education: "Education",
-        projects: "Startups",
+        projects: "Projects",
         research: "Research",
+        recommendation: "Recommendation",
         techstack: "Tech Stack",
         design: "Design"
     },
@@ -39,7 +40,11 @@ const portfolioVariables = {
     },
     
     projects: {
-        title: "Dave Nguyen | Startups"
+        title: "Dave Nguyen | Projects"
+    },
+    
+    recommendation: {
+        title: "Dave Nguyen | Recommendations"
     }
 };
 
