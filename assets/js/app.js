@@ -9,7 +9,7 @@ document.body.appendChild(script);
 // Header
 
 let header = $(`
-<nav class="navbar navbar-expand-lg fixed-top dark-theme" id="navbar">
+<nav class="navbar navbar-expand-lg fixed-top" id="navbar">
 <a class="navbar-brand" href="index.html">John Doe </a>
 <div class="hamburger_wrapper navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
 
@@ -31,7 +31,7 @@ let header = $(`
    <li class="nav-item nav-item-hover"><a class="nav-link" href="recommendation.html">Recommendation</a></li>
    <li class="nav-item nav-item-hover"><a class="nav-link" href="techstack.html"">Skills</a></li>
    <li class="nav-item">
-   <input type="checkbox" id="dark_toggler" class="dark_toggler" aria-label="Toggle Light Mode" onclick="toggle_light_mode()" checked>
+   <input type="checkbox" id="dark_toggler" class="dark_toggler" aria-label="Toggle Light Mode" onclick="toggle_light_mode()">
    </li>
    <div class="bike">
    <svg xmlns="http://www.w3.org/2000/svg" viewBox="-80 0 650 400" preserveAspectRatio="xMinYMin meet">
@@ -134,6 +134,7 @@ let footer = $(`
 
 
 
+        <!-- Contact Me / Get in Touch form
         <div class="col-lg-6 col-md-12 mb-4 mb-md-0 form-comtainer">
           <div class="form-style-6">
              <div class="form-header">
@@ -151,6 +152,7 @@ let footer = $(`
                 </form>
               </div>
             </div>
+        -->
           </div>
         </div>
     </div>
@@ -365,23 +367,30 @@ $(document).ready(function () {
 });
 
 //consistent light mode for page change
-if (localStorage.getItem("lightMode") == "light") {
-  var app = document.getElementsByTagName("HTML")[0];
-  app.setAttribute("light-mode", "light");
+// One-time migration: old default was dark; switch saved preference to light
+if (localStorage.getItem("themeDefault") !== "light-v1") {
+  localStorage.setItem("lightMode", "light");
+  localStorage.setItem("themeDefault", "light-v1");
+}
 
-  //to add dark theme to nav bar after its been loaded
+if (localStorage.getItem("lightMode") == "dark") {
+  var app = document.getElementsByTagName("HTML")[0];
+  app.setAttribute("light-mode", "dark");
+
   window.addEventListener("load", function () {
     var nav = document.getElementById("navbar");
-    nav.classList.remove("dark-theme");
-    document.getElementById("dark_toggler").checked = false;
+    nav.classList.add("dark-theme");
+    document.getElementById("dark_toggler").checked = true;
   });
 
   var sc = document.getElementsByClassName("socialicon");
   for (var i = 0; i < sc.length; i++) {
-    sc[i].classList.remove("dsc");
+    sc[i].classList.add("dsc");
   }
 } else {
-  localStorage.setItem("lightMode", "dark");
+  localStorage.setItem("lightMode", "light");
+  var app = document.getElementsByTagName("HTML")[0];
+  app.setAttribute("light-mode", "light");
 }
 
 function toggle_light_mode() {
